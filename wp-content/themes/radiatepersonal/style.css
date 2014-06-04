@@ -1,0 +1,93 @@
+/*
+ Theme Name: Nayfirs
+ Theme URI: http://arrow-media.co.uk
+ Author: Jessika Nygren
+ Author URI: http://arrow-media.co.uk
+ Description: Child theme for Nayfirs
+ Version: 1.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain: Nayfirs
+ Template: Radiate
+ Parent Theme: Radiate
+ */
+@import url('../radiate/style.css');
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+
+h1.site-title a {
+    font-family: 'Dancing Script', cursive;
+}
+
+article{
+    width: 1160px;
+    padding: 20px 80px 20px 80px;
+}
+article.post-2 b{
+    width: 300px;
+}
+article.p{
+    font-size: 12px;
+}
+h1.entry-title {
+    text-align:center;
+
+}
+.fiddle {
+    width: 37%;
+    float:left;
+    padding: 0 5% 0 5%;
+    text-align: center;
+}
+
+
+
+/* =Responsive Structure
+----------------------------------------------- */
+@media screen and (max-width: 1308px) {
+    #page {
+        width: 100%;
+    }
+    .inner-wrap {
+        width: 96%;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    body.admin-bar .header-wrap {
+        top: 45px;
+    }
+}
+
+/* All Mobile Portrait size smaller than 768 (devices and browsers) */
+@media screen and (max-width: 768px) {
+    article{
+        width: 650px;
+    }
+    .fiddle{
+        width: 600px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .header-wrap {
+        position: relative;
+    }
+    article{
+        width: 387px;
+
+    }
+    .fiddle{
+        width: 380px;
+        text-align: left;
+
+    }
+    #parallax-bg{
+        background-image: url('../../uploads/2014/05/headermobile.png') !important;
+    }
+
+}
+
+
+
+
+
