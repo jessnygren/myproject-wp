@@ -38,6 +38,12 @@ h1.entry-title {
     padding: 0 5% 0 5%;
     text-align: center;
 }
+.header-wrap{
+    background: #ffffff url('images/log2.png') no-repeat 330px center;
+
+}
+
+
 
 
 
@@ -86,6 +92,10 @@ h1.entry-title {
     }
     h3{
         text-align: center;
+    }
+    .header-wrap{
+        background: #ffffff url('images/log2.png') no-repeat 130px 60px;
+
     }
 
 }
