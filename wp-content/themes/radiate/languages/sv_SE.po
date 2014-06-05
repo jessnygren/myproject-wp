@@ -1,0 +1,9 @@
+#: content.php:26
+#@ radiate
+msgid "Read more <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Läs mer <span class=\"meta-nav\">&rarr;</span>"
+
+#: front-page.php:34
+#@ radiate
+msgid "Read more"
+msgstr "Läs mer"

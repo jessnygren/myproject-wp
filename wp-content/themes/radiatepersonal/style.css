@@ -1,13 +1,13 @@
 /*
- Theme Name: Nayfirs
+ Theme Name: Nayifrs
  Theme URI: http://arrow-media.co.uk
  Author: Jessika Nygren
  Author URI: http://arrow-media.co.uk
- Description: Child theme for Nayfirs
+ Description: Child theme for Nayifs
  Version: 1.0
  License: GNU General Public License v2 or later
  License URI: http://www.gnu.org/licenses/gpl-2.0.html
- Text Domain: Nayfirs
+ Text Domain: Nayifs
  Template: Radiate
  Parent Theme: Radiate
  */
@@ -83,6 +83,9 @@ h1.entry-title {
     }
     #parallax-bg{
         background-image: url('../../uploads/2014/05/headermobile.png') !important;
+    }
+    h3{
+        text-align: center;
     }
 
 }
