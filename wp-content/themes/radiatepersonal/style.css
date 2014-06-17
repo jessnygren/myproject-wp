@@ -42,6 +42,26 @@ h1.entry-title {
     background: #ffffff url('images/log2.png') no-repeat 330px center;
 
 }
+.omoss{
+    width: 800px;
+    padding-left: 200px;
+}
+
+
+.fbwrap a{
+    height: 50px;
+    display: block;
+    width: 25%;
+    float: left;
+}
+.fbwrap p{
+    width: 600px;
+    float: right;
+    padding-top: 6px;
+
+
+}
+
 
 
 
@@ -73,6 +93,17 @@ h1.entry-title {
         width: 600px;
         text-align: center;
     }
+    .omoss{
+        width: 650px;
+        padding:0;
+    }
+    .fbwrap p{
+       width: 550px;
+    }
+    .fbwrap a{
+        width: 70px;
+        padding-top: 0px;
+    }
 }
 @media only screen and (max-width: 600px) {
     .header-wrap {
@@ -95,6 +126,21 @@ h1.entry-title {
     }
     .header-wrap{
         background: #ffffff url('images/log2.png') no-repeat 130px 60px;
+
+    }
+    .omoss{
+        width: 378px;
+        padding: 0;
+
+    }
+    .fbwrap p{
+        width: 320px;
+        padding-top: 5px;
+
+    }
+    .fbwrap a{
+        width: 57px;
+
 
     }
 
